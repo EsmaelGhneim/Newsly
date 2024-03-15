@@ -1,0 +1,56 @@
+<!-- fragment_profile.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/blu"
+>
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:text="Hello User"
+        android:textAllCaps="false"
+        android:textColor="#B0FFFFFF"
+        android:paddingTop="16dp"
+        android:textSize="40sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail = example@gmail.com"
+        android:gravity="center"
+        android:textColor="#B0FFFFFF"
+        android:paddingBottom="16dp"
+
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:paddingTop="16dp"
+        android:textSize="20sp"
+
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_box"
+        android:paddingStart="50sp"
+        android:paddingEnd="50sp"
+        android:textSize="22sp"
+        android:textColor="#B0FFFFFF"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:layout_marginTop="20sp"
+        android:text="Logout" />
+
+</LinearLayout>

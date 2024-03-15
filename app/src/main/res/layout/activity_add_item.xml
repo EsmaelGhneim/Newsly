@@ -1,0 +1,67 @@
+<!-- activity_add_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/blu"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click The image bellow to enter a Photo"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="normal"
+        android:layout_marginBottom="10sp"
+        android:textAllCaps="false"
+        android:paddingTop="16dp"
+        android:textColor="#B9FFFFFF"
+        android:textSize="20sp"
+
+        />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/img1"
+        android:scaleType="centerCrop"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#B9FFFFFF"
+        android:textColorHint="#B9FFFFFF"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#B9FFFFFF"
+        android:textColorHint="#B9FFFFFF"
+        android:hint="Description" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/custom_box_2"
+        android:backgroundTint="#FF7A8A"
+        android:paddingStart="50sp"
+        android:paddingEnd="50sp"
+        android:text="Post News"
+        android:textAllCaps="false"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#B9FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="normal" />
+
+
+
+</LinearLayout>
